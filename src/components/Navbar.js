@@ -3,10 +3,10 @@ import reactLogo from "../images/react-icon-small.png"
 
 export default function Navbar(){
     return(
-        <na>
-            <img src="{reactLogo}"></img>
+        <nav>
+            <img src={reactLogo} alt="logo"  />
             <h3>ReactFacts</h3>
-            <h3>React Course: Project 1</h3>
-        </na>
+            <h4>React Course: Project 1</h4>
+        </nav>
     )
 }
